@@ -1,6 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/hadessama1994/chat_app)](https://github.com/hadessama1994/chat_app) 
 
-
 # My Youtube Channel APP
 
 Made this react-native application to list the last 10 videos on my channel using YOUTUBE API. 
