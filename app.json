@@ -1,12 +1,16 @@
 {
-  "name": "mobile",
-  "displayName": "mobile",
+  "name": "HadesPlaysAPP",
+  "displayName": "HadesPlaysAPP",
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "HadesPlaysAPP",
+    "slug": "HadesPlaysAPP",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.hadesplays.hadesplaysapp",
+      "versionCode": 1
+    }
   }
 }

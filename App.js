@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React, {useState, useEffect} from 'react';
 import { StyleSheet, View, TextInput, FlatList, Image, Linking} from 'react-native';
-import { AppLoading } from 'expo';
-import * as Font from 'expo-font';
+
 import api from './api.js'
 import {Button, Text, List, ListItem, Container, Header, Left, Body, Title, Subtitle, Right, Content, Card, CardItem, Thumbnail, Icon } from 'native-base';
 import TimeAgo from 'react-native-timeago';
-import moment from 'moment';
+
+
 
 
 export default function App() {
@@ -25,7 +25,7 @@ export default function App() {
         part: "snippet",
         playlistId: 'UUvax7WLz8o2UtGS-FL8bW4g',
         maxResults:'10',
-        key: 'AIzaSyDJav91NGI_di6WTHzG_kP5Y2lzCcgvPlM'
+        key: 'INSERT YOUR API KEY'
       }
 
     })
@@ -45,7 +45,7 @@ export default function App() {
       params: {
         part: "statistics",
         id: `${showVideoID}`,
-        key: 'AIzaSyDJav91NGI_di6WTHzG_kP5Y2lzCcgvPlM'
+        key: 'INSERT YOUR API KEY'
       }
       
     })
